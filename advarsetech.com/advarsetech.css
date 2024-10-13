@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: solid #F3A71D;
+}
+.main{
+    height: 500vh;
+    /* background-color: #FD5825; */
+}
+.nav{
+    height: 76px;
+    width: 100%;
+    background-color:#ffff;
+   box-shadow: 0px 0px 5px black;
+   /* float: left; */
+   position: fixed;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 30px 30px 10px ;
+    /* padding-left: 200px; */
+    padding-right: 80px;
+    padding-bottom: 10px;   
+}
+#logo{
+    float: left;
+    background-color:#ffff;
+    height: 60px;
+    width: 80px;
+    /* padding: 5px 100px 5px 60px; */
+
+}
+/* #img{
+    height: px;
+    width: 0px;
+    margin: 5px 40px 5px 40px;
+    padding: 10px 20px 20px 10px;
+} */
+
+a{
+    font-weight:700;
+    font-family: 'Montserrat', sans-serif !important;
+    color: black;
+    text-decoration: none;
+}
+
+.home{
+    width: 100%;
+    height: 80vh;
+    /* margin-top: 100px; */
+}
+#content{
+    width: 50%;
+    height: 100vh;
+    margin-top: 120px;
+    float: left;
+}
+#homeimg{
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+#homeimage{
+    height: 540px;
+    width: 540px;
+    padding-left: 30px;
+    padding-top: 40px;
+
+}  
+h1{
+    padding: 20px 50px 30px 90px;
+    font-weight: 800;
+} 
+#homepara{
+    
+    /* padding: 20px; */
+    margin-top: 30px;
+    margin-left: 90px;
+    font-weight: 800;
+}    
+h1,#homepara{
+    font-family: 'Montserrat', sans-serif !important;
+    margin-top: 20px;
+}
+#homepagebutton{
+    width: 197.19px;
+    height: 46px;
+    /* margin-bottom: 40px; */
+    margin: 50px 30px 30px 90px;
+    background-color: #FD5825;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cards{
+    width: 100%;
+    height: 400px;
+    float: left;
+    padding-left: 20px;
+}
+.card{
+   width: 350px;
+   height: 350px;
+   /* background-color: yellow; */
+   float: left;
+   margin: 20px 0px 2px 30px;
+   padding-left: 50px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 3px black;
+}
+#card1,#card2,#card3{
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #ffff;
+}
+#card1{
+background-color: #FE5825;
+}
+#card2{   
+    background-color: #F3A71D;
+}
+#card3{   
+    background-color: #999A1C;
+}
+h2,p{
+    padding: 20px;
+    /* margin-right:10px ; */
+}
+button{
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    margin-left:20px ;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.imgslide{
+    /* width: 100%; */
+    height: 300px;
+    padding-left: 40px;
+    float: left;
+    /* display:block; */
+}
+.s1,.s2,.s3,.s4,.s5{
+    margin: 100px 30px 10px 30px;
+    /* position: absolute;
+    right: 20px;*/
+   /* scroll-behavior: smooth; */ 
+   height: 180px;
+}
+/* marquee{
+    width: 1000px;
+    margin-left: 100px;
+} */
+#products{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    background-color: #FD5825;
+}
+/* ------------------------------------------------- */
+/* ------------------------------------------------------- */
+.container {
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 100px;
+    word-wrap: 0.3rem;
+}
+#con1,#con2,#con3 {
+    display: inline-block;
+    width: 330px;
+    height: 440px;
+    word-wrap: 1rem;
+    /* border: 2px solid; */
+}
+#con1 {
+    position: relative;
+    right: 59px;
+    width: 261px;
+    /* padding: auto; */
+    /* margin-left: -43px; */
+}
+#con3 {
+    position: absolute;
+    /* left: 1199px; */
+}
+#con2 {
+    position: absolute;
+    right: 201px;
+    left: 837px
+}
+.container h6 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.53);
+    margin-bottom: 20px;
+}
+.container b {
+    font-size: 16px;
+    font-weight: bolder;
+}
+.container h5 {
+    font-size: 16px;
+    color: #00000080;
+    margin-bottom: 9px;
+    margin-top: 23px;
+
+}
+.container p {
+    color: #0000008a;
+    font-weight: 500;
+    margin-bottom: 11px;
+    margin-bottom: 11px;
+    line-height: 24px;
+}
+.container a {
+    color: rgba(0, 0, 0, 0.488);
+}
+
+
